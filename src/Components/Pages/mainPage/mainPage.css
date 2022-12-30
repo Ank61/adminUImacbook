@@ -1,0 +1,258 @@
+ .main {
+     display: flex;
+     margin-left: 93px;
+     margin-right: 80px;
+     border-color: 1px solid white;
+     border-radius: 25px;
+     width: 1100px;
+     height: 540px;
+     background-color: white;
+ }
+
+ .firstDiv {
+     /* width: 1366px;
+  height: 668px; */
+
+      padding-top:7%; 
+      padding-bottom: 91px;
+     background-color: #0f1322;
+ }
+
+ .dashboard {
+     /* display: inline;  */
+     margin-left: 80px;
+     background-color: #f3f1ef;
+     width: 850px;
+     height: 540px;
+     border-radius: 25px;
+ }
+
+ .sidebar {
+     padding-left: 10px;
+ }
+
+ .buttons {
+      /* margin-left: 40px;  */
+      float: right;
+     /* align-items: center; */
+     margin-top: 20px;
+ }
+
+ .button2 {
+      margin-left: 73px; 
+     /* float: right; */
+     margin-top: 25px;
+ }
+
+ .button3 {
+    /* margin-left: 45px;  */
+    float: right;
+     margin-top: 25px;
+ }
+
+ .Dash {
+     float: left;
+     width: 240px;
+     margin-left: 12px;
+     padding-left: 8px;
+     height: 285px;
+     background-color: #0f1322;
+     border-radius: 20px;
+     color: white;
+ }
+
+ .MainDash {
+     padding-top: 30px;
+     padding-left: 20px;
+ }
+
+ .Dash2 {
+     /* display: flex; */
+     float: right;
+     width: 515px;
+     margin-right: 30px;
+     padding-left: 18px;
+     height: 285px;
+     background-color: #95cfd9;
+     border-radius: 20px;
+     overflow: auto;
+
+ }
+
+ .Dash3 {
+     width: 772px;
+     padding-left: 10px;
+     padding-top: 6px;
+     /* margin-top: 10px; */
+     margin-left: 32px;
+     height: 180px;
+     background-color: #d9bca9;
+     border-radius: 20px;
+     color: black;
+ }
+
+ .notification {
+     padding-top: 6px;
+ }
+
+ .heading {
+     text-align: center;
+     margin-top: 6px;
+ }
+
+ .Subheading {
+     text-align: center;
+     padding-top: 10px;
+ }
+
+ .bda {
+     float: left;
+     background-color: white;
+     border-radius: 20px;
+     color: black;
+     padding-left: 8px;
+     padding-top: 30px;
+     margin-top: 5px;
+     margin-left: 70px;
+     width: 150px;
+     height: 155px;
+     box-shadow: 6px 6px 7px 0px #a3a2a2;
+     transition: transform .25s;
+ }
+
+ .bda:hover {
+     box-shadow: none;
+     border: 1px solid #d9bca9;
+     cursor: pointer;
+     transform: scale(1.1);
+     /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+ }
+
+ .text_performance {
+     float: left;
+     width: 150px;
+     padding-top: 5px;
+     padding-left: 20px;
+     height: 70px;
+ }
+
+ .closeButton {
+     background-color: #d3966e;
+     border: none;
+     width: 65px;
+     height: 40px;
+     margin-left: 400px;
+     border-radius: 10px;
+     margin-bottom: 15px;
+ }
+
+ .closeButton:hover {
+     background-color: #bd6b35;
+     border: none;
+     width: 65px;
+     height: 40px;
+     border-radius: 10px;
+     margin-left: 400px;
+     margin-bottom: 15px;
+ }
+
+ .bda_Month {
+     float: left;
+     background-color: white;
+     border-radius: 20px;
+     color: black;
+     padding-left: 8px;
+     padding-top: 30px;
+     margin-top: 5px;
+     margin-left: 40px;
+     width: 150px;
+     height: 155px;
+     box-shadow: 6px 6px 7px 0px #a3a2a2;
+     transition: transform .25s;
+ }
+
+ .bda_Month:hover {
+     box-shadow: none;
+     border: 1px solid #d9bca9;
+     cursor: pointer;
+     transform: scale(1.1);
+     /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+ }
+
+ .carousel-control-prev {
+     width: 40px ! important;
+     color: #0f1322 !important;
+     /* height: 40px !important; */
+
+     height: 40px !important;
+     margin-top: 35px !important;
+     /* margin-top: 180px !important; */
+     font-size: larger;
+ }
+
+ .carousel-control-next {
+     width: 45px ! important;
+     color: #0f1322 !important;
+     /* height: 40px !important; */
+
+     height: 45px !important;
+     margin-top: 35px !important;
+     /* margin-top: 180px !important; */
+     font-size: larger;
+     border-radius: 20px;
+ }
+
+ .editPresentation {
+    float: right;
+    margin-right: 10px;
+    background-color: #95cfd9;
+    color: white;
+    border: none;
+ }
+ .editPresentation:hover {
+    float: right;
+    margin-right: 10px;
+    background-color: #95cfd9;
+    color: #0f1322;
+    border: none;
+ }
+
+ .carousel{
+    /* background-color: #0f1322; */
+    margin-top: 297px;
+    height: 150px;
+ }
+ .carousel-indicators{
+    position: absolute !important;
+    top: 120% !important;
+    left: 30% !important; 
+    /* right:56% !important; */
+    width:60px !important;
+ }
+ .changeProfile{
+    width:25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 8px;
+    color: #878787;
+    padding-left: 5px;
+    position: absolute;
+    top:256px;
+    left:238px;
+    box-shadow: 2px 2px 8px 0px #a3a2a2;
+    /* padding-top: 30px; */
+ }
+ .changeProfile:hover{
+    width:25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 8px;
+    color: #0f1322;
+    padding-left: 5px;
+    position: absolute;
+    cursor: pointer;
+    top:256px;
+    left:238px;
+    box-shadow: 2px 2px 8px 0px #a3a2a2;
+    /* padding-top: 30px; */
+ }

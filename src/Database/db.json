@@ -1,0 +1,136 @@
+{
+  "user": [
+      {
+        "name": "Aryan Sharma",
+        "username": "raj",
+        "email": "aryan@gmail.com",
+        "phone": "1234567890",
+        "id": 1,
+        "dept" :"Developer",
+        "status":"present"
+      },
+      {
+        "name": "Akash Tyagi",
+        "username": "akashsingh",
+        "email": "akash@gmail.com",
+        "phone": "98786756564",
+        "id": 2,
+        "dept" :"Buisness Development",
+        "status":"present"
+      },
+      {
+        "name": "Suraj Kumar",
+        "username": "suraj123",
+        "email": "suraj@gmail.com",
+        "phone": "9956976967",
+        "id": 3,
+        "dept" :"Project Manger",
+        "status":"absent"
+      },
+      {
+        "name": "Rakesh Saini",
+        "username": "rakesh",
+        "email": "rakesh@gmail.com",
+        "phone": "9579579575",
+        "id": 4,
+        "dept" :"Developer",
+        "status":"present"
+      },
+      {
+        "name": "Vikas Sharma",
+        "username": "vikas123",
+        "email": "vikas@gmail.com",
+        "phone": "444444444444",
+        "id": 5,
+        "dept" :"Buisness Development",
+        "status":"present"
+      },
+      {
+        "name" : "Amit Gupta",
+        "designation" : "Senior Team Lead",
+        "role" :"admin",
+        "id" :6,
+        "email":"amit@gmail.com",
+        "password" :"amit123"
+    }
+    ],
+"dashboard":[
+    {  
+        "bda" :[
+            {
+                "name" :"Akash Tyagi", 
+                "assigned" : "12",
+                "achieved" :"7",
+                "time":"1 month",
+                "today":"2",
+                "completed":"0"
+            },
+            {
+                "name" :"Vikas Sharma",
+                "assigned" : "14",
+                "achieved" :"5",
+                "time":"1 month",
+                "today" : "2",
+                "completed":"1"
+            }
+        ],
+        "developer" : [
+            {
+                "name": "Aryan Sharma",
+                "project" : "Soren"
+            },
+            {
+                "name": "Rakesh Saini",
+                "project" : "AutoHound"
+            }
+        ],
+        "project manager" :[
+            {
+                "name": "Suraj Kumar",
+                "task" : "check performance of Rakesh Saini"
+            }
+        ],
+        "projects" :[
+            {
+                
+            }
+        ],
+        "update":[
+            {
+                "Birthday" : "Vikas Sharma"
+            },
+            {
+                "presentation" : [
+                    {
+                        "name" :"Rakesh Saini",
+                        "topic" : "React-Redux",
+                        "time" :"3:00 PM"
+                    },
+                    {
+                        "name" : "Aryan Sharma",
+                        "topic" : "Node.js",
+                        "time" :"4:15 PM"
+                    }
+                ]
+            },
+            {
+                "meetings" :[
+                    {
+                        "subject":"Incoming Covid Situation"
+                    },
+                    {
+                        "subject" :"Changes required next year"
+                    }
+                ]
+            },
+            {
+                "proposal" : [
+                    {
+                        "topic" :"Project manger's propsal settlement"
+                    }
+                ]
+            }
+        ]
+    }
+]
+  }

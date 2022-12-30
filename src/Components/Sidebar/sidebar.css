@@ -1,0 +1,17 @@
+.admin{
+    margin-left: 75px;
+    margin-top: 7px;
+
+}
+.profilePic{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 82px;
+    background-color: aqua;
+    border-radius: 30px;
+}
+.designation{
+    color:#696e73;
+    margin-left: 48px;
+}
