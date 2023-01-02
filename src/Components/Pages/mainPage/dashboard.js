@@ -127,8 +127,9 @@ export default function Dashboard() {
                             Close
                         </Button>
                     </Modal>
+                    {/*<button className='editPresentation' onClick={() => handlePresentation(item)}><i class="fa-solid fa-pen-to-square"></i></button> */}
                     <ul>
-                        {update ? update[1].presentation.map((item, i) => (<li key={i}> <small><b>Employee:&nbsp;</b>&nbsp;{item.name} &nbsp; <b>Topic:</b>&nbsp;{item.topic}</small> <button className='editPresentation' onClick={() => handlePresentation(item)}><i class="fa-solid fa-pen-to-square"></i></button></li>)) : ""}
+                        {update ? update[1].presentation.map((item, i) => (<li key={i}> <small><b>Employee:&nbsp;</b>&nbsp;{item.name} &nbsp; <b>Topic:</b>&nbsp;{item.topic}</small> </li>)) : ""}
                     </ul>
                     <u>Meeting</u>
                     <ul>

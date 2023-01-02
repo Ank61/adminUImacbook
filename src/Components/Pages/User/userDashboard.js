@@ -1,8 +1,10 @@
+import './user.css'
 
-
-export default function UserDashboard(){
+export default function UserDashboard() {
     return (
-<>
-Hello userDashboard</>
+        <div className="user">
+        
+            Hello userDashboard
+        </div>
     )
 }
